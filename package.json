@@ -13,6 +13,7 @@
   "dependencies": {
     "bootstrap": "5.3.0",
     "font-awesome": "4.7.0",
+    "gulp-less": "^5.0.0",
     "jquery": "3.7.0",
     "jquery.easing": "^1.4.1",
     "magnific-popup": "^1.1.0",
@@ -22,11 +23,14 @@
     "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
     "gulp-header": "^2.0.9",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "lodash": "^4.17.21",
-    "popper.js": "^1.14.6"
+    "node-sass": "^9.0.0",
+    "popper.js": "^1.14.6",
+    "sass": "^1.68.0"
   }
 }
