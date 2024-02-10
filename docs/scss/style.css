@@ -5236,7 +5236,7 @@ Portfolio
       margin-bottom: 0; }
   .product .product-category {
     display: block;
-    opacity: 0.5; }
+    opacity: 1; }
   .product .product-price {
     width: 26%;
     float: right;
