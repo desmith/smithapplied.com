@@ -4518,7 +4518,7 @@ h6.font-parisienne {
 	width: 100%;
 	height: 72vh;
 	overflow: hidden;
-	transition: opacity 0.3s ease;
+	/* transition: opacity 0.3s ease; */
 	min-height: 100%;
 	width: 100%;
 }
@@ -6656,6 +6656,7 @@ Portfolio
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	margin-top: 15px;
 }
 .product .product-image > a,
 .product .product-image img {
@@ -6711,7 +6712,8 @@ Portfolio
 }
 .product .product-category {
 	display: block;
-	opacity: 0.5;
+	opacity: 1.5;
+	color: #f99620;
 }
 .product .product-price {
 	width: 26%;
@@ -18565,7 +18567,7 @@ video {
 	content: " ";
 	z-index: 0;
 	background: rgba(0, 0, 0, 0.59);
-	opacity: 0.5;
+	opacity: 0.3;
 }
 .bg-overlay[data-style="1"] {
 	background: #fff;
@@ -19044,6 +19046,44 @@ body[data-bg-image] {
 .card .card-body .wizard {
 	padding: 1rem;
 }
+
+
+.green-color {
+	color:green;
+}
+
+@media only screen and (min-width: 300px){
+.fa-whatsapp {
+	color:#fff;
+	background:
+	 linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+	 radial-gradient(#25d366 60%,transparent 0);
+  }
+}
+
+
+
+
+
+  
+
+  /* @media (max-width: 1024px) {
+	.whatsapp-icon-link1   {
+		display: none;
+	}
+} */
+
+/* #whatsappIcon {
+	display: flex;  Initially hide the WhatsApp icon 
+	background-color: green;
+	color: white;
+	padding: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+} */
+
+
+
 
 /* Custom CSS*/
 

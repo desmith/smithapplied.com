@@ -90,10 +90,16 @@ div.bg-smith-overlay {
 }
 
 @media only screen and (max-width: 1024px) {
-	#mainMenu nav > ul > li > .btn-contact {
+	#mainMenu nav > ul > li > .btn-contact  {
 		display: none !important;
 	}
 }
+
+/* @media only screen and (max-width: 1024px) {
+	#container .whatsapp-icon-link1 .whatsapp-icon-container {
+		display: none !important;
+	}
+} */
 
 .smith-icon i {
 	font-size: 55px;
@@ -127,7 +133,7 @@ div.bg-smith-overlay {
 
 @media only screen and (min-width: 1024px) {
 
-#header .header-inner #logo a .logo-default, #header #header-wrap #logo a .logo-default {
+#header .header-inner #logo a .logo-default, #header #header-wrap #logo a .logo-default 
 {
     margin-left: 21% !important;
 }
@@ -143,4 +149,17 @@ div.custom-text-slide{
 	color: #0a0a0aea;
 
     }
-}
+
+
+	.product-category{
+		/* color: #f45532;
+		font-size: 14px;
+		font-weight: bold; */
+	
+		color: rgb(12, 12, 12);
+	  font-family: "Rubik", sans-serif;
+	  font-size: 15px;
+	  font-weight: bold;
+	  letter-spacing: 0.8px;
+	  line-height: 1.8rem;
+	}

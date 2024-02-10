@@ -472,9 +472,9 @@ var INSPIRO = {},
           e.stopPropagation();
           e.preventDefault();
         });
-        $body.on("click", function(e) {
-          $mainMenu.find(".hover-active").removeClass("hover-active");
-        });
+        // $body.on("click", function(e) {
+        //   $mainMenu.find(".hover-active").removeClass("hover-active");
+        // });
         /*invert menu fix*/
         $(window).breakpoints("greaterEqualTo", "lg", function () {
           var $menuLastItem = $("nav > ul > li:last-child"),
