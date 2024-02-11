@@ -755,7 +755,7 @@ var INSPIRO = {},
           }
 
           if (!$.isNumeric(elem.options.autoPlay) && elem.options.autoPlay != false) {
-            elem.options.autoPlay = Number(7000);
+            elem.options.autoPlay = Number(12000);
           }
           
           if (INSPIRO.core.rtlStatus() == true) { 
