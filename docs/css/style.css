@@ -4530,7 +4530,7 @@ h6.font-parisienne {
 }
 .inspiro-slider.is-fade .slide {
 	opacity: 0 !important;
-	transition: opacity 0.5s ease !important;
+	transition: opacity 1s ease !important;
 }
 .inspiro-slider.is-fade .slide.is-selected {
 	opacity: 1 !important;
@@ -6703,11 +6703,11 @@ Portfolio
 	padding: 8px 0 10px;
 }
 .product .product-title {
-	max-width: 80%;
+	max-width: 85%;
 }
 .product .product-title h3,
 .product .product-title h3 a {
-	font-size: 18px;
+	font-size: 28px;
 	margin-bottom: 0;
 }
 .product .product-category {
@@ -9628,7 +9628,7 @@ Helpers
 }
 
 .m-b-40 {
-	margin-bottom: 40px !important;
+	margin-bottom: 1px !important;
 }
 
 .m-b-50 {

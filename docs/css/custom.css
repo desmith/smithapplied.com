@@ -163,3 +163,16 @@ div.custom-text-slide{
 	  letter-spacing: 0.8px;
 	  line-height: 1.8rem;
 	}
+
+	/* @media (min-width: 1200px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+		max-width: 1355px;
+	}
+
+	} */
+
+
+	.container1{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
