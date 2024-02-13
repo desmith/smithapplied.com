@@ -1683,13 +1683,16 @@ Main Menu
 #mainMenu nav > ul > li.hover-active > a,
 #mainMenu nav > ul > li.hover-active > span,
 #mainMenu nav > ul > li.current > a,
-#mainMenu nav > ul > li.current > span,
+
 #mainMenu nav > ul > li:hover > a,
 #mainMenu nav > ul > li:hover > span,
 #mainMenu nav > ul > li:focus > a,
 #mainMenu nav > ul > li:focus > span {
-	color: #2250fc;
+	/* color: #2250fc; */
+	color:#000000;
 }
+
+
 #mainMenu nav > ul > li.dropdown:before {
 	content: "\e930";
 	transform: rotate(90deg);
@@ -4640,16 +4643,19 @@ h6.font-parisienne {
 	z-index: 1;
 }
 .inspiro-slider .flickity-button {
-	width: 78px;
-	height: 78px;
-	line-height: 78px;
-	background: transparent;
+	width: 50px;
+	height: 50px;
+	line-height: 66px;
+	background: #877f7a;
 	color: #ffffff;
 	box-shadow: none;
 	padding: 0;
 }
+
+
+
 .inspiro-slider .flickity-button::before {
-	line-height: 78px;
+	line-height: 30px;
 	font-size: 28px;
 	color: #ffffff;
 }
@@ -18567,7 +18573,7 @@ video {
 	content: " ";
 	z-index: 0;
 	background: rgba(0, 0, 0, 0.59);
-	opacity: 0.3;
+	opacity: 0;
 }
 .bg-overlay[data-style="1"] {
 	background: #fff;
@@ -19062,69 +19068,20 @@ body[data-bg-image] {
 }
 
 
+.carousel-inner1 {
+    position: relative;
+    width: 340%;
+    overflow: hidden;
+    margin-left: 80px;
+
+  }
+
+  @media (min-width: 768px){
 
 
-
-  
-
-  /* @media (max-width: 1024px) {
-	.whatsapp-icon-link1   {
-		display: none;
+	.col-md-4 {
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 24.333333%;
 	}
-} */
-
-/* #whatsappIcon {
-	display: flex;  Initially hide the WhatsApp icon 
-	background-color: green;
-	color: white;
-	padding: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-} */
-
-
-
-
-/* Custom CSS*/
-
-
-/* Admin */
-/* @include breakpoint-lg(max) {
-
-    a>span.logo-default::after,
-    a>span.logo-dark::after {
-        position: absolute;
-        content: "";
-        background: #2250fc;
-        width: 13px;
-        height: 13px;
-        border-radius: 50%;
-        right: 0px;
-        top: 20px;
-    }
-
-    a>span.logo-default::before,
-    a>span.logo-dark::before {
-        position: absolute;
-        content: "5";
-        font-weight: 600;
-        font-size: 10px;
-        right: 2px;
-        top: -14px;
-        z-index: 1;
-        color: #ffffff;
-    }
-
-    #header.header-mini {
-
-        a>span.logo-default::after,
-        a>span.logo-dark::after {
-            width: 12px;
-            height: 12px;
-            right: 1px;
-            top: 11px;
-        }
-    }
-} */
-
-/*# sourceMappingURL=style.css.map */
+  }
