@@ -7818,12 +7818,12 @@ Scroll top
 	border-radius: 100px;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: #f58634;
 	background-repeat: no-repeat;
 	background-position: center;
 	transition: opacity 0.3s, bottom 0.5s, box-shadow 0.3s cubic-bezier(0.55, 0, 0.1, 1),
 		background-color 0.1s linear;
-	background-color: rgba(0, 0, 0, 0.25) !important;
+	background-color: #f58634 !important;
 	overflow: hidden;
 }
 #scrollTop i {
@@ -19085,3 +19085,23 @@ body[data-bg-image] {
 		max-width: 24.333333%;
 	}
   }
+
+
+
+  #carouselExampleIndicators2.flickity-button .flickity-prev-next-button{
+	display: none;
+  }
+
+  #carouselExampleIndicators2.inspiro-slider:hover .flickity-button.previous, .carousel:hover .flickity-button.previous {
+    right: auto;
+    left: 10px;
+    opacity: 1;
+    display: none;
+}
+
+#carouselExampleIndicators2.inspiro-slider:hover .flickity-button.next, .carousel:hover .flickity-button.next {
+    right: auto;
+    left: 10px;
+    opacity: 1;
+    display: none;
+}

@@ -15280,3 +15280,7 @@ body[data-bg-image] {
 } */
 
 /*# sourceMappingURL=style.css.map */
+
+#carouselExampleIndicators2 .flickity-button{
+  display: none;
+}
