@@ -2795,6 +2795,7 @@ var INSPIRO = {},
       }
     }
   }
+  
   //Load Functions on document ready
   $(document).ready(function () {
     INSPIRO.core.functions();
