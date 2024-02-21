@@ -2925,6 +2925,7 @@ Main Menu: Responsive
 		display: block;
 		opacity: 1;
 		overflow-y: scroll;
+		z-index: 1;
 	}
 	.mainMenu-open #header .header-inner,
 	.mainMenu-open #header #header-wrap {
