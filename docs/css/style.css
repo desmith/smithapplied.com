@@ -19089,20 +19089,20 @@ body[data-bg-image] {
 
 
 
-  #carouselExampleIndicators2.flickity-button .flickity-prev-next-button{
-	display: none;
+  /* #carouselExampleIndicators2.flickity-button .flickity-prev-next-button{
+	display: block;
   }
 
   #carouselExampleIndicators2.inspiro-slider:hover .flickity-button.previous, .carousel:hover .flickity-button.previous {
     right: auto;
     left: 10px;
     opacity: 1;
-    display: none;
+    display: block;
 }
 
 #carouselExampleIndicators2.inspiro-slider:hover .flickity-button.next, .carousel:hover .flickity-button.next {
     right: auto;
     left: 10px;
     opacity: 1;
-    display: none;
-}
+    display: block;
+} */
