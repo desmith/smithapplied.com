@@ -111,14 +111,20 @@
 	}
 
 
-  .columnCard {
+  /* .columnCard {
     float: left;
     width: 48%;
     padding: 5px 82px;
+    
+} */
+
+.columnCard {
+  margin: 10px;
 }
   
   /* Remove extra left and right margins, due to padding */
-  .rowCard {margin: 0 -5px;}
+  .rowCard {justify-content: center;
+  display: flex;}
   
   /* Clear floats after the columns */
   .rowCard:after {
